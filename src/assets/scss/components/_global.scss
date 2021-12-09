@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+    font-size: 17px;
+
+    @media screen and (max-width:991px) {
+        font-size: 14px;
+    }
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: var(--font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--color-black);
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+ul,ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 80%;
+    min-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pgs_main_{
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+  }
